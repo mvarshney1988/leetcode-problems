@@ -6,6 +6,8 @@ public class Solution {
         return num;
 
     }
+    //11,10,8,1,3,4,6,7
+    //target=3
     private int bs(int[] a, int start, int end, int target){
         if(start>end){
             return -1;
