@@ -1,4 +1,9 @@
 package com.hard.divideconquer.mediantwosorted;
+// cheatsheet
+// take min length array and loop through end and reset x pointer for start and end.
+// formula for x partition-low+high/2, part y = x+y+1/2-partx
+// find max min of both array and check cross value comparison, if matches
+// if comibined array is even, take avg of both max and both min else take max of both max
 
 public class SolutionBS {
     public static void main(String[] args) {

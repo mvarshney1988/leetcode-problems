@@ -1,7 +1,10 @@
 package com.hard.arr;
 
 import java.util.Arrays;
-
+// cheatsheet
+// length of new array , should be length of orig array if max value exceeds the length
+// store only those values as index which are less than length =1
+// iterate and find element with zero value
 public class MissingPositive {
     public static void main(String[] args) {
 System.out.println(new MissingPositive().firstMissingPositive(new int[]{1}));

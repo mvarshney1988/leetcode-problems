@@ -1,5 +1,11 @@
 package com.medium.dp.recursion;
-
+// cheatsheet
+// recursion
+// default count for both ways = Int.Max-1
+//counnt = include current coin , not increment index, 1+recursive remaining balance
+// other count = exclude current coin=>increment index
+// min of both
+// for memo, pass 2d metrics [index][amount]
 public class MinCoin {
 
     public static void main(String[] args) {
